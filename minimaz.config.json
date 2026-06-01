@@ -1,0 +1,31 @@
+{
+    "outDir": "dist",
+    "bundling": {
+        "css": {
+            "enabled": true,
+            "outFile": "style.css"
+        },
+        "js": {
+            "enabled": true,
+            "outFile": "script.js"
+        }
+    },
+    "minify": {
+        "html": true,
+        "css": true,
+        "js": true,
+        "ts": true
+    },
+    "replace": {
+        "../../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2": "/fonts/bootstrap-icons.woff2",
+        "../../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff": "/fonts/bootstrap-icons.woff",
+        "<!--security-->": "<meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'self';script-src 'self' 'unsafe-hashes';style-src 'self';img-src 'self' data:;font-src 'self';connect-src 'self';form-action 'self';base-uri 'self';frame-ancestors 'none';object-src 'none';upgrade-insecure-requests;block-all-mixed-content;\">"
+    },
+    "folders": {
+        "src/pages": "",
+        "src/scripts": "",
+        "src/styles": "",
+        "src/public": "",
+        "node_modules/bootstrap-icons/font/fonts": "fonts"
+    }
+}

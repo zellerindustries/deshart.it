@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-desh",
+  "version": "0.1.0",
+  "license": "ISC",
+  "type": "commonjs",
+  "scripts": {
+    "build": "mz b",
+    "start": "npx mz b && npx serve dist/"
+  },
+  "devDependencies": {
+    "bootstrap-icons": "^1.13.1",
+    "minimaz-cli": "^0.4.0",
+    "serve": "^14.2.6"
+  }
+}
