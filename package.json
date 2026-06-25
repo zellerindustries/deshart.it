@@ -4,12 +4,15 @@
   "license": "ISC",
   "type": "commonjs",
   "scripts": {
-    "build": "mz b",
+    "build": "npx mz b",
     "start": "npx mz b && npx serve dist/"
   },
-  "devDependencies": {
+  "dependencies": {
     "bootstrap-icons": "^1.13.1",
-    "minimaz-cli": "^0.5.2",
+    "minimaz-cli": "^0.5.2"
+  },
+  "devDependencies": {
+    "prettier": "3.8.3",
     "serve": "^14.2.6"
   }
 }
